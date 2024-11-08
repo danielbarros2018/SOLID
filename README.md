@@ -13,4 +13,4 @@ Os códigos utilizados nesse módulo estão na estrutura abaixo:
 > /SRP/tests  = Testes unitários das classes.
 
 <br>
-![refact.jpeg](SRP%2Fimg%2Frefact.jpeg)
+![refact.jpeg](SRP%2Frefact%2Fimg%2Frefact.jpeg)
