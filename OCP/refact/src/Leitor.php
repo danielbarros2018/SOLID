@@ -33,18 +33,18 @@ class Leitor
     {
         $caminho = $this->getDiretorio() . '/' . $this->getArquivo();
         if (file_exists($caminho)) {
-            $arquivo = new Arquivo();
             $ext = explode('.', $this->getArquivo());
+            $class = '\App\extrator\\' . ucfirst($ext[1]);
             
-            if (strtoupper($ext[1]) == 'CSV') {
-                $arquivo->lerArquivoCSV($caminho);
-            } else if (strtoupper($ext[1]) == 'TXT') {
-                $arquivo->lerArquivoTXT($caminho);
-            }
-            
-            return $arquivo->getDados();
+            return call_user_func_array(
+                [
+                    new $class,
+                    'lerArquivo'
+                ], [
+                    $caminho
+                ]
+            );
         }
-        
-        return [];
     }
+    
 }
