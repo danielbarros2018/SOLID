@@ -1,0 +1,16 @@
+{
+    "name": "barros/start",
+    "description": "Curso Udemy SOLID",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Barros",
+            "email": "danielbarros.android@gmail.com"
+        }
+    ],
+    "require": {}
+}
