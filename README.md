@@ -38,3 +38,26 @@ Os códigos utilizados nesse módulo estão na estrutura abaixo:
 ![ocp2.jpeg](OCP%2Frefact%2Fimg%2Focp2.jpeg)
 
 ![ocp3.jpeg](OCP%2Frefact%2Fimg%2Focp3.jpeg)
+
+---
+
+##  Liskov Substitution Principle
+###### "Princípio de Substituição de Liskov"
+
+#### Uma classe derivada seve ser substituível por sua classe base.
+Se q(x) é uma propriedade demonstrável dos objetos X de tipo T. Então q(y) 
+deve ser verdadeiro para objetos y de tipo S onde S é um subtipo de T.
+
+<br>
+Os códigos utilizados nesse módulo estão na estrutura abaixo:  
+
+> /LSP  
+> /LSP/start  = Código de exemplo para aplicação do princípio.  
+> /LSP/refact = Código refatorado com o princío aplicado.  
+
+![lsp1.jpeg](LSP%2Fimg%2Flsp1.jpeg)
+
+![lsp2.jpeg](LSP%2Fimg%2Flsp2.jpeg)
+
+![lsp3.jpeg](LSP%2Fimg%2Flsp3.jpeg)
+
