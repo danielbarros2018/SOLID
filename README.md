@@ -15,3 +15,4 @@ Este diretório contém o código inicial (sem nenhuma organização) para ser u
 Este diretório contém o refactor do código inicial (aplicando a regra do SRP)
 <br><br>
 
+![refact.jpeg](SRP%2Fimg%2Frefact.jpeg)
