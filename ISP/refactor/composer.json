@@ -1,5 +1,5 @@
 {
-    "name": "barros/refact",
+    "name": "barros/start",
     "description": "Curso Udemy SOLID",
     "autoload": {
         "psr-4": {

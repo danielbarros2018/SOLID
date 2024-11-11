@@ -1,5 +1,5 @@
 {
-    "name": "barros/app_etl",
+    "name": "barros/refact",
     "description": "Curso Udemy SOLID",
     "autoload": {
         "psr-4": {
